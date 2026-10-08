@@ -1,0 +1,7 @@
+{
+  "name": "wt-panel",
+  "version": "0.1.0",
+  "description": "A /wt pane listing the repository's git worktrees: status, changes, copy path, open in VS Code, guarded delete",
+  "author": { "name": "Jenwein" },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "feishu-notify",
+  "version": "0.1.0",
+  "description": "Feishu DMs via lark-cli when a long turn ends or Claude waits on a permission prompt or question",
+  "author": { "name": "Jenwein" },
+  "userConfig": {
+    "waitMinutes": {
+      "type": "number",
+      "title": "等待提醒（分钟）",
+      "description": "权限弹窗或提问等你处理超过这么久，就发飞书提醒",
+      "default": 2
+    },
+    "longTurnMinutes": {
+      "type": "number",
+      "title": "长任务（分钟）",
+      "description": "一轮超过这么久，结束或出错时发飞书提醒",
+      "default": 3
+    }
+  }
+}

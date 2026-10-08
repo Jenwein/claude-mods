@@ -1,0 +1,7 @@
+{
+  "name": "git-band",
+  "version": "0.1.0",
+  "description": "A band above the prompt showing the git branch, uncommitted changes and ahead/behind counts",
+  "author": { "name": "Jenwein" },
+  "types": "./types/index.d.ts"
+}
