@@ -1,6 +1,8 @@
 {
   "name": "claude-mods",
-  "owner": { "name": "Jenwein" },
+  "owner": {
+    "name": "Jenwein"
+  },
   "description": "Personal Claude Code mods (function-hook plugins)",
   "plugins": [
     {
@@ -12,11 +14,6 @@
       "name": "wt-panel",
       "source": "./wt-panel",
       "description": "A /wt pane listing the repository's git worktrees: status, changes, copy path, open in VS Code, guarded delete"
-    },
-    {
-      "name": "feishu-notify",
-      "source": "./feishu-notify",
-      "description": "Feishu DMs via lark-cli when a long turn ends or Claude waits on a permission prompt or question"
     }
   ]
 }

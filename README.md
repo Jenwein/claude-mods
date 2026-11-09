@@ -6,7 +6,6 @@
 | --- | --- |
 | [git-band](git-band) | 在输入框上方显示当前 git 分支、未提交文件数和 ↑↓ 提交数，每 3 秒刷新 |
 | [wt-panel](wt-panel) | `/wt` 打开当前仓库的 worktree 总览面板：状态、改动、复制路径、VS Code 打开、带风险提醒的删除 |
-| [feishu-notify](feishu-notify) | 长任务结束或出错、权限弹窗或提问等你超过一定时间时，用 lark-cli 的机器人给你发飞书私信；`/feishu-test` 发测试消息。需要先 `lark-cli auth login` |
 
 ## 安装
 
